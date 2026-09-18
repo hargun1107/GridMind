@@ -1,0 +1,23 @@
+# Core Numerical & Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# Machine Learning & Modeling
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# Optimization & Constraint Programming
+ortools>=9.9.0
+
+# API & Web Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+
+# Testing & Quality
+pytest>=8.0.0
+httpx>=0.27.0

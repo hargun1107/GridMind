@@ -1,0 +1,7 @@
+{
+  "model": "Ridge Linear Regression",
+  "mae_mw": 386.48,
+  "rmse_mw": 515.46,
+  "mape_percent": 1.22,
+  "test_samples": 6967
+}

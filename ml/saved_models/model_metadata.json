@@ -1,0 +1,46 @@
+{
+  "model_name": "GridMind Ridge Baseline",
+  "model_type": "Ridge Linear Regression",
+  "feature_count": 27,
+  "feature_names": [
+    "hour",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos",
+    "month_sin",
+    "month_cos",
+    "lag_1h",
+    "lag_2h",
+    "lag_3h",
+    "lag_24h",
+    "lag_48h",
+    "lag_168h",
+    "rolling_mean_6h",
+    "rolling_std_6h",
+    "rolling_mean_24h",
+    "rolling_std_24h",
+    "rolling_min_24h",
+    "rolling_max_24h",
+    "temperature_c",
+    "relative_humidity_pct",
+    "cooling_degree_days",
+    "heating_degree_days",
+    "thi_discomfort_index"
+  ],
+  "training_period": {
+    "start": "2014-08-12 13:00:00",
+    "end": "2017-10-16 16:00:00"
+  },
+  "test_period": {
+    "start": "2017-10-16 17:00:00",
+    "end": "2018-08-03 00:00:00"
+  },
+  "training_sample_count": 27865,
+  "test_sample_count": 6967,
+  "data_source": "PJM Interconnection (PJME Zone) real hourly grid electricity consumption",
+  "weather_data_provenance": "Synthetic / deterministic development meteorological series (not physical weather station measurements)"
+}

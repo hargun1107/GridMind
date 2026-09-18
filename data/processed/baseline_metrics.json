@@ -1,0 +1,26 @@
+{
+  "naive_24h": {
+    "name": "Naive 24h Persistence",
+    "metrics": {
+      "mae": 2303.745,
+      "rmse": 3127.303,
+      "mape_pct": 7.294
+    }
+  },
+  "historical_mean": {
+    "name": "Historical Weekly Mean",
+    "metrics": {
+      "mae": 3894.083,
+      "rmse": 4960.199,
+      "mape_pct": 12.175
+    }
+  },
+  "ridge_regression": {
+    "name": "Ridge Linear Regression",
+    "metrics": {
+      "mae": 386.475,
+      "rmse": 515.455,
+      "mape_pct": 1.223
+    }
+  }
+}
