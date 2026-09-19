@@ -60,3 +60,6 @@ Thumbs.db
 
 # GridMind local artifacts
 *.log
+
+# Vite generated files
+*.timestamp-*.mjs

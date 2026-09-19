@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0B0D0F;
+    color: #F3F4F6;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom technical scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0D0F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #252A2E;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #374151;
+  }
+}
+
+/* Control room grid pattern */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(37, 42, 46, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 42, 46, 0.3) 1px, transparent 1px);
+}
+
+.panel-glow {
+  box-shadow: 0 0 15px -3px rgba(16, 229, 117, 0.05);
+}
